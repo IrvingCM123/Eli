@@ -9,7 +9,7 @@ matplotlib.use('TkAgg')
 plt.rcParams.update({'figure.figsize': (7, 5), 'figure.dpi': 100})
 
 image = Image.open('Bandera.jpg')
-doc = 'World_Cities.csv'
+doc = 'https://firebasestorage.googleapis.com/v0/b/basenorelacional-93160.appspot.com/o/datasets%2FWorld_Cities.csv?alt=media&token=a69d6da7-ae99-4ca8-9cc5-4343514dc57b'
 
 st.set_page_config(layout="wide", page_title="Cities List", page_icon=image)
 
